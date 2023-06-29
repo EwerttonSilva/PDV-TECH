@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container-info {
+    background-color: rgb(63, 63, 204);
+    height: 2.5vh;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.container-card-pdv {
+    /*-background-color: rgb(56, 120, 204);*/
+    background-image: linear-gradient(45deg,rgb(22, 128, 199), rgb(76, 166, 226));
+    height: 10vh;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+}
+.container-compras {
+    background-color: rgb(132, 186, 207);
+    height: 60vh;
+}
+.container-preco {
+    background-color: rgb(62, 153, 189);
+    height: 10vh;
+}
+.container-situacao-caixa {
+    display: flex;
+    background-color: rgb(19, 22, 180);
+    height: 10vh;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    font-weight: bold;
+}
+.config-caixa {
+    display: flex;
+    background-color: black;
+    height: 7.5vh;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 30pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
